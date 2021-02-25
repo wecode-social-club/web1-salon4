@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+.TodayHotPhoto {
+  font-family: "Noto Sans KR", sans-serif;
+  .titleArea {
+    margin: 0 auto;
+    display: flex;
+    width: 1136px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sectionTitle {
+    font-size: 20px;
+  }
+  .moreLink {
+    font-size: 15px;
+    font-weight: 700;
+    color: #35c5f0;
+  }
+
+  .photoArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .photoCard {
+    position: relative;
+    width: 269px;
+    height: 269px;
+    margin: 0 10px 20px 10px;
+    background-color: skyblue;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .cardImg {
+    width: 269px;
+    height: 269px;
+    transition: transform 0.2s;
+  }
+  .photoCard:hover .cardImg {
+    transform: scale(1.05);
+  }
+  .rankIcon {
+    position: absolute;
+    top: -1px;
+    left: 10px;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url(https://ohou.se/assets/icon_map/v4/page-home.png);
+    background-size: 600px auto;
+    font-size: 15px;
+    font-weight: 700;
+    width: 30px;
+    height: 36px;
+    line-height: 32px;
+    background-position: left 0 top -40px;
+  }
+  .multiphotoIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 14px;
+    height: 14px;
+    color: hsla(0, 0%, 100%, 0.74);
+    z-index: 1;
+  }
+  .profileArea {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    height: 128px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5));
+  }
+  .profileImg {
+    width: 22px;
+    height: 22px;
+    border: 1px solid hsla(0, 0%, 100%, 0.5);
+    border-radius: 50%;
+    margin-right: 2px;
+  }
+  .profileName {
+    color: #ffffff;
+    line-height: 22px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+}

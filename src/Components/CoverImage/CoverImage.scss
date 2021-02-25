@@ -1,0 +1,55 @@
+.CoverImage {
+  color: #fff;
+  .CoverWrap {
+    width: 840px;
+    height: 564px;
+    position: relative;
+  }
+
+  .ImageWraper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  .TextWrap {
+    width: 600px;
+    height: 85px;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-family: Noto Sans Kr;
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap");
+  }
+
+  .moreBtn {
+    width: 140px;
+    height: 15px;
+    background-color: rgb(53, 197, 240);
+    padding: 14px 5px 20px 5px;
+    text-align: center;
+    position: absolute;
+    right: 35px;
+    border-radius: 5px;
+    bottom: 35px;
+  }
+  .profile {
+    display: flex;
+  }
+  .profile img {
+    border-radius: 50%;
+    width: 30px;
+  }
+
+  .profile span {
+    text-indent: 10px;
+    font-size: 13px;
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+  }
+}

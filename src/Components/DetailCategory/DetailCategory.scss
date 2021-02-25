@@ -1,0 +1,24 @@
+.DetailCategory {
+}
+
+.shortcut_list_item_image_icons {
+  width: 104px;
+  height: 73px;
+  background-color: transparent;
+}
+
+.DetailCategory {
+  .container_shortcut {
+    display: flex;
+  }
+}
+
+.DetailCategory {
+  line-height: 1;
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕",
+    "Malgun Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.4px;
+  font-size: 15px;
+  text-align: center;
+}

@@ -1,0 +1,97 @@
+.TodayStory {
+  .story-wrap {
+    display: flex;
+
+    justify-content: left;
+    width: 1429.6px;
+    height: 283.59px;
+  }
+  .story {
+    width: 289.862px;
+    margin-left: 20px;
+  }
+  .nickname-name {
+    font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕",
+      "Malgun Gothic", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+  }
+
+  .nickname {
+    display: flex;
+    width: 262.4px;
+    height: 122px;
+  }
+  .title {
+    font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕",
+      "Malgun Gothic";
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    margin: 20px;
+  }
+
+  .img-wrap {
+    width: 289.862px;
+    height: 202.9px;
+    overflow: hidden;
+    border-radius: 3%;
+  }
+
+  .story-img {
+    width: 289.862px;
+    height: 202.9px;
+    &:hover {
+      transform: scale(1.1);
+      transition-duration: 0.5s;
+    }
+  }
+
+  .nickname-img {
+    width: 22px;
+    height: 22px;
+    border-radius: 70%;
+    margin-right: 5px;
+  }
+
+  .story-name {
+    font-size: 15px;
+    line-height: 1.3;
+    font-weight: 700;
+    font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕",
+      "Malgun Gothic", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.storyMenu {
+  width: 200px;
+  height: 300px;
+  margin-left: 20px;
+
+  border-radius: 6%;
+  overflow: hidden;
+}
+
+.sMenu {
+  height: 90px;
+  background-color: #f5f5f5;
+  margin-bottom: 2px;
+  &:hover {
+    transition: background-color 0.1s;
+  }
+}
+
+.sMenu_title {
+  margin-left: 15px;
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕",
+    "Malgun Gothic", sans-serif;
+}
+
+.sMenu_sub {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 8px;
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕",
+    "Malgun Gothic", sans-serif;
+}

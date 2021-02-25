@@ -1,0 +1,56 @@
+.TodayExhibition {
+  width: 1136px;
+  margin: 0 auto;
+
+  .title-area {
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .content-wrap {
+    margin: 10px;
+    margin-top: 0;
+  }
+  .card-wrap {
+  }
+
+  .card {
+    width: 365px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .card img {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    transition: 0.7s;
+  }
+
+  .card img:hover {
+    transform: scale(1.1);
+  }
+
+  .content-area {
+    padding: 15px 10px;
+  }
+  .sub-content {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .main-content {
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
